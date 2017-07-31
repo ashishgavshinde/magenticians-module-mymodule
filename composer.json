@@ -1,0 +1,26 @@
+{
+    "name": "magenticians/module-mymodule",
+    "description": "Magenticians Mymodule",
+    "type": "magento2-module",
+    "version": "2.1.5",
+    "license": [
+      "OSL-3.0",
+      "AFL-3.0"
+    ],
+    "require": {
+      "php": "~5.5.0|~5.6.0|~7.0.0",
+      "magento/framework": "~100.0.4"
+    },
+    "authors": [
+      {
+        "name": "MangoItSolutions",
+        "email": "sales@mangoitsolutions.com"
+      }
+    ],
+    "autoload": {
+      "files": [ "registration.php" ],
+      "psr-4": {
+        "Mangoit\\Attributesorting\\": ""
+      }
+    }
+}

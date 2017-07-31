@@ -1,0 +1,30 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
+
+	<head>
+        <title>Magento 2 Module</title>
+        <!-- 
+		demo
+		<css src="Magenticians_Mymodule::css/css.css"/>
+		<script src="Magenticians_Mymodule::js/js.js"/>
+		<css src="jquery/fileUploader/css/jquery.fileupload-ui.css"/>
+		<script src="path/file.js" defer="defer"/>
+		<link src="http://url.com" src_type="url"/>
+		<remove src="path/remove/file.css"/>
+
+		-->
+    </head> 
+
+    <body>
+
+
+        <referenceContainer name="sidebar.main">
+            <block class="Magenticians\Mymodule\Block\Index\Sidebar" name="mymodule_index_sidebar" before="-" template="Magenticians_Mymodule::mymodule_index_sidebar.phtml"/>
+        </referenceContainer>
+
+        <referenceContainer name="content">
+            <block class="Magenticians\Mymodule\Block\Index\Index" name="mymodule_index_index" template="Magenticians_Mymodule::mymodule_index_index.phtml"/>
+        </referenceContainer>
+
+
+    </body>
+</page>
