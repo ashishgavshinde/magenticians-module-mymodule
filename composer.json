@@ -22,5 +22,11 @@
       "psr-4": {
         "Magenticians\\Mymodule\\": ""
       }
-    }
+    },
+    "repositories": [
+        {   
+            "url":"https://github.com/ashishgavshinde/magenticians-module-mymodule.git",
+            "type": "git"
+        }
+    ]
 }
