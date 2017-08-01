@@ -1,6 +1,6 @@
 {
     "name": "magenticians/module-mymodule",
-    "description": "Magenticians Mymodule",
+    "description": "Yash Dave's Hello World Magento 2 Module.",
     "type": "magento2-module",
     "version": "2.1.5",
     "license": [
