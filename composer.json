@@ -2,7 +2,7 @@
     "name": "magenticians/module-mymodule",
     "description": "Yash Dave's Hello World Magento 2 Module.",
     "type": "magento2-module",
-    "version": "2.1.5",
+    "version": "2.1.6",
     "license": [
       "OSL-3.0"
     ],
