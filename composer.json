@@ -6,7 +6,7 @@
     "license": [
       "OSL-3.0"
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
      "repositories": [
         {      
             "url":"https://github.com/ashishgavshinde/magenticians-mymodule.git",
